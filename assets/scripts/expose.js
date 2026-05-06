@@ -6,7 +6,7 @@ const config = new Map();
 config.set('air-horn',{img:'air-horn.svg',sound:'air-horn.mp3',animatioin:false})
 config.set('car-horn',{img:'car-horn.svg',sound:'car-horn.mp3',animatioin:false})
 config.set('party-horn',{img:'party-horn.svg',sound:'party-horn.mp3',animatioin:true})
-const assetsUrl = '../assets/';
+const assetsUrl = './assets/';
 
 function init() {
   const selectElement = document.getElementById('horn-select');

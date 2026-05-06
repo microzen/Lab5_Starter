@@ -7,7 +7,7 @@ function init() {
 
   const url = {'close':'smiling.png', 'open':'smiling-open.png'};
   const imgElement = document.querySelector('#explore img');
-  const assets = '../assets/'
+  const assets = './assets/'
   const voiceSelect = document.getElementById('voice-select');
   const button = document.querySelector('button');
   const inputTxt = document.getElementById('text-to-speak');
